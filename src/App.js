@@ -1,10 +1,10 @@
-import saturno from './imgaes/saturno.png'
+// import saturno from './imgaes/saturno.png'
 import bg from './imgaes/bluesky.jpg'
 import thisisteto from './imgaes/teto.png'
 
 import './App.css'
 
-import CompStuff from "./componente/ComponenteDinamico"
+// import CompStuff from "./componente/ComponenteDinamico"
 
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 

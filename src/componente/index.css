@@ -1,5 +1,10 @@
 .tiltCard {
-    background: linear-gradient(#ffff, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(#ffff, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)), url(../imgaes/bluesky.jpg);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
@@ -13,13 +18,25 @@
 }
 
 .tiltCard:hover {
-    box-shadow: 0 10px 20px rgb(0, 0, 0,0.5);
+    box-shadow: 0 10px 20px rgb(255, 255, 255, 0.5);
     transform: perspective(500px) rotateX(5deg);
 }
 
-.tiltCard:hover .musicCover{
-    box-shadow: 0 10px 10px rgb(0, 0, 0,0.5);
+.tiltCard:hover .musicCover {
+    box-shadow: 0 10px 10px rgb(255, 255, 255, 0.5);
     transform: translateY(-10px);
+}
+
+.tiltCard:hover .musicLink {
+    transform: translateY(-5px) scale(1.1);
+    color: white;
+    text-shadow: white 0 0 10px;
+}
+
+.tiltCard:hover .musicName {
+    transform: translateY(-5px) scale(1.1);
+    color: white;
+    text-shadow: white 0 0 10px;
 }
 
 .musicCover {
@@ -29,10 +46,14 @@
 }
 
 .musicName {
-    font-size: 35px;
+    transition: 0.35s;
+    color: white;
+    font-size: 30px;
 }
 
 .musicLink {
     text-decoration: none;
     color: black;
+
+    transition: 0.35s;
 }

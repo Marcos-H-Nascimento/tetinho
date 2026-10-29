@@ -10,7 +10,6 @@ import groupies from './imgaes/groupies.png'
 import vampiro from './imgaes/vampiro.png'
 import fdsnorio from './imgaes/fdsnorio.png'
 import flowespacial from './imgaes/flowespacial.png'
-import mqot from './imgaes/maiorqueotempo.png'
 import maisumvoo from './imgaes/maisumvoo.png'
 import matecaxteto from './imgaes/matecaxteto.png'
 import mveuf from './imgaes/minhavidaeumfilme.png'
@@ -81,7 +80,7 @@ function App() {
               <CompStuff musicName={"M4"} musicCover={m4} musicLink={"https://open.spotify.com/album/0yqUVjjoQFD1wtu4OJSNM3?si=HwcwfPUKQFycQOnnL1-dkw"}></CompStuff>
               <CompStuff musicName={"Prévias.zip"} musicCover={previas} musicLink={"https://open.spotify.com/album/0yqUVjjoQFD1wtu4OJSNM3?si=HwcwfPUKQFycQOnnL1-dkw"}></CompStuff>
               <CompStuff musicName={"Groupies"} musicCover={groupies} musicLink={"https://open.spotify.com/album/0yqUVjjoQFD1wtu4OJSNM3?si=HwcwfPUKQFycQOnnL1-dkw"}></CompStuff>
-              <CompStuff musicName={"Mustang Preto"} musicCover={groupies} musicLink={"https://open.spotify.com/album/0yqUVjjoQFD1wtu4OJSNM3?si=HwcwfPUKQFycQOnnL1-dkw"}></CompStuff>
+              <CompStuff musicName={"Mustang Preto"} musicCover={mustangpreto} musicLink={"https://open.spotify.com/album/0yqUVjjoQFD1wtu4OJSNM3?si=HwcwfPUKQFycQOnnL1-dkw"}></CompStuff>
             </div>
           </section>
 
